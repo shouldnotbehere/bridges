@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding: 0px;       
+    height: 100%;
+    width: 100%;
+
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Arial', bold;
+    background: white;
+}
+
+h1{
+    margin: 0px;
+}
+
+#heading{
+    height: 100px;
+    line-height: 100px;
+}
+
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+#app-container{
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px grey;
+    background: rgb(243, 241, 241);
+    cursor: pointer;
+}
+
+#win-message{
+    border-radius: 10px;
+    position: absolute;
+    width: inherit;
+    text-align: center;
+    line-height: 450px;
+    opacity: 0;
+    font-size: 30pt;
+    color: white;
+    visibility: hidden;
+    background: rgba(219, 214, 214, 0.75);
+    transition: all 1s ease-in-out;
+}
+
+#win-message-change{
+    border-radius: 10px;
+    position: absolute;
+    width: inherit;
+    text-align: center;
+    line-height: 450px;
+    opacity: 1;
+    font-size: 30pt;
+    color: white;
+    background: rgba(219, 214, 214, 0.75);
+}
+
+.side-panel{
+    font-family: 'Arial', bold;
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    text-align: justify;
+}
+
+.side-panel h3{
+    text-align: center;
+    font-size: 27px;
+    margin: 0px
+}
+
+.side-panel ul{
+    font-size: 14pt;
+}
+
+.side-panel ul li{
+    margin: 0 20px 20px;
+}
+
+.side-panel p{
+    font-size: 14pt;
+    margin: 20px;
+}
+
+#blue-message{
+    color: blue;
+    background: rgba(219, 214, 214, 1   );
+    box-shadow: 0px 4px 4px grey;
+}
+
+pre, p {
+    font-size: 1.5em;
+    color: #FE7F88;
+    background-color: transparent;
+}
+
+div {
+  background-image: url("https://cdn.discordapp.com/attachments/417419526720847883/861720933810176020/bridgebg.jpg");
+}
+
+p {
+  background-image: none;
+}
+
+.catsandstars {
+  background-image:  url("https://cdn.discordapp.com/attachments/417419526720847883/861720933810176020/bridgebg.jpg");
+  background-color: transparent;
+}

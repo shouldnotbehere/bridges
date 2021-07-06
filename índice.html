@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Bridg-it</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="side-panel">
+            <h3>¿Qué es Bridg-It?</h3>
+            <p> Conocido como el juego de Gale (del cual nació la versión comercial) o el juego de Shannon, este juego trata de conseguir formar caminos entra extremos opuestos de un tablero.</p>
+        </div>
+
+        <div id="app-container">
+            <div id="win-message"> <span id = "blue-message"> ¡Azul gana!'</span></div>
+            <canvas id="canvas" width="450px" height="450px"></canvas>
+        </div>
+        <div>
+            <p class="catsandstars">
+            </p>
+        </div>
+
+        <div class="side-panel">
+            <h3>Reglas del juego: </h1>
+                <ul>
+                    <li>Azul juega primero.</li>
+                    <li>Cada jugador busca llegar al extremo contrario del que comenzó.</li>
+                    <li>Azul gana si logra construir un camino que conecte los lados izquierdo y derecho del tablero.</li>
+                    <li>Rojo gana si logra construir un camino que conecte los lados superior e inferior del tablero.</li>
+                </ul>
+        </div>
+        <script src="scripts/dsu.js"></script>
+        <script src="scripts/circle.js"></script>
+        <script src="scripts/app.js"></script>
+    </div>
+</body>
+</html>
